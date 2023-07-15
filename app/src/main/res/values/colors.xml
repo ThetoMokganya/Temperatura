@@ -3,4 +3,5 @@
     <color name="sunny_forest">#47AB2F</color>
     <color name="cloudy_forest">#54717A</color>
     <color name="rainy_forest">#57575D</color>
+    <color name="text_white">#FFFFFF</color>
 </resources>

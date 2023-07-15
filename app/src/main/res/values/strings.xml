@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Temperatura</string>
+    <string name="min_label">min</string>
+    <string name="max_label">max</string>
+    <string name="current_label">Current</string>
 </resources>
