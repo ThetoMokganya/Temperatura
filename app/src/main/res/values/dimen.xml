@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text Sizes -->
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+    <dimen name="text_size_52">52sp</dimen>
+    <!--Margin Sizes-->
+    <dimen name="margin_size_10">10dp</dimen>
+    <dimen name="margin_size_48">48dp</dimen>
+    <!--Padding Sizes-->
+    <dimen name="padding_size_20">20dp</dimen>
+    <dimen name="padding_size_16">16dp</dimen>
+</resources>
