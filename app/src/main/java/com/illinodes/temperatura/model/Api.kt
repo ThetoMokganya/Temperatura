@@ -9,13 +9,14 @@ import retrofit2.http.Path
 interface Api {
     @GET("?weather/lat={lat}&lon={lon}&appid={apiKey}")
     fun getCurrentWeather(
-        @Path("lat") lat: String,
-        @Path("lon") lon: String,
+        @Path("lat") lat: Double,
+        @Path("lon") lon: Double,
         @Path("apiKey") apiKey: String): Call<GetCurrentWeather>
 
-    @GET("?weather/lat={lat}&lon={lon}&appid={apiKey}")
+    @GET("forecast/daily?/lat={lat}&lon={lon}&cnt={cnt}&appid={apiKey}")
     fun getWeatherForecast(
-        @Path("lat") lat: String,
-        @Path("lon") lon: String,
+        @Path("lat") lat: Double,
+        @Path("lon") lon: Double,
+        @Path("lon") cnt: Int,
         @Path("apiKey") apiKey: String): Call<GetWeatherForecast>
 }
