@@ -1,5 +1,5 @@
 # Temperatura
-Weather app that shows current weather based on your location and as well as weather forcast.
+Weather app that shows current weather based on your location and as well as weather forecast.
 
 Architecture: The project used a slightly modified MVVM architecture, which uses a Service for 
 making backend calls and a viewModel to handle data received from backend and prep it for the View.
@@ -11,3 +11,4 @@ helper/GlobalConstant
 Packages: Following are packages used for the project.
 -> Retrofit: For making HTTP calls to the web api.
 -> Retrofit Gson Converter: To convert JSON objects to Android data objects
+
